@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int is_narciss(int& n); // return 1 if narcissistic number
+int is_narciss(const int& n); // return 1 if narcissistic number
 int m_pow(int n, int epn = 1); // return n ^ epn
 
 int main()
@@ -30,7 +30,7 @@ int main()
 	return 0;
 }
 
-int is_narciss(int &n)
+int is_narciss(const int &n)
 {
 	int tmp = n;
 	int count = 1; // number of digit
