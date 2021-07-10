@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 void my_strcat(char* dest, char* source);
 void my_strcpy(char* str1, char* str2);
 
